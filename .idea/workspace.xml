@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc683e47-737e-4c4c-8abd-d7be043524c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/KINDpos_Vz1.5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/dependencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/payment_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/printing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/reporting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/server_shift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/staff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/sync.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/api/routes/system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/base_payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/base_printer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/dejavoo_spin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/mock_impact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/mock_payment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/mock_thermal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/payment_health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/payment_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/payment_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/printer_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/adapters/test_payment_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/ephemeral_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/event_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/financial_invariants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/menu_projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/money.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/core/projections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models/config_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models/diagnostic_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/models/printer_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/escpos_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/char_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/delivery_kitchen.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/driver_receipt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/kitchen_ticket_bar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/kitchen_ticket_hot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/receipt_delivery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/receipt_dine_in.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/fixtures/receipt_to_go.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/logo_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/print_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/print_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/base_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/char_test_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/clock_hours.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/delivery_kitchen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/delivery_receipt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/driver_receipt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/driver_ticket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/guest_receipt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/half_placement_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/kitchen_ticket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/sales_recap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/templates/server_checkout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/printing/test_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/reports/entomology_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/scanner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/scanner/printer_detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/demo_seeder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/diagnostic_collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/overseer_config_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/print_context_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/sample_order_seeder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/services/store_config_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bombard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bombard/mock_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bombard/run_bombard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bombard/simulation_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bombard/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/check_employees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/config_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/printer_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/scripts/fix_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seed_demo_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seed_employees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/seed_sample_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_api_orders_extended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_api_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_append_batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_auth_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_cash_and_tip_flows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_chaos_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_check_state_validity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_config_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_config_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_daily_workflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_dejavoo_spin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_demo_seeder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_correlation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_reboot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_entomology_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_ephemeral_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_escpos_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_event_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_financial_invariants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_half_placement_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_hash_chain_tamper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_invariants_property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_probes_critical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_probes_high_low.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_session4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_support_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_kindnostic_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_labor_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_ledger_concurrency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_ledger_crash_recovery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_menu_projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_money_round.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_orders_mutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_overpayment_guard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_overseer_config_projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_payment_health.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_payment_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_payment_routes_refund.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_payment_validator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_pos_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_precision_gate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_print_context_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_print_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_print_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_print_templates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_print_templates_money.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_printer_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_printer_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_projections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_seat_payments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_server_shift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_staff_routes_extended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_sync_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/entomology.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/dummy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/hash_chain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/precision_gate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/printers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/probes/system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/support_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kindnostic/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/assets/images/palm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/category-grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/half-placement-overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/menu-data/universal-modifiers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/modifier-panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/numpad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/pizza-builder-overlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/check-overview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/checkout-core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/manager-landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/order-entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/server-checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/scenes/server-landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/sm2-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal/tokens.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="218" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CXHXKStWdwBMLm2ayEpwS0jMq9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bgkd2/PycharmProjects/KINDpos_Vz1.5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bgkd2\PycharmProjects\KINDpos_Vz1.5" />
+      <recent name="C:\Users\bgkd2\PycharmProjects\KINDpos_Vz1.5\terminal\assets\images" />
+      <recent name="C:\Users\bgkd2\PycharmProjects\KINDpos_Vz1.5\backend\data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.32098.74" />
+        <option value="bundled-python-sdk-1cd77e80b48f-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc683e47-737e-4c4c-8abd-d7be043524c5" name="Changes" comment="" />
+      <created>1776525032822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776525032822</updated>
+      <workItem from="1776525033851" duration="22334000" />
+      <workItem from="1776591541228" duration="22115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

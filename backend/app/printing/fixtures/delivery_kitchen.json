@@ -1,0 +1,22 @@
+{
+  "order_id": "order_654",
+  "ticket_number": "C-005",
+  "order_type": "delivery",
+  "fired_at": "2026-03-20T18:00:00Z",
+  "items": [
+    {
+      "name": "Family Pizza Meal",
+      "modifiers": ["1 Cheese", "1 Pepperoni"],
+      "special_instructions": "Extra dipping sauce"
+    },
+    {
+      "name": "2L Soda",
+      "modifiers": ["Cola"],
+      "special_instructions": null
+    }
+  ],
+  "delivery_address": "789 Pine St, Springfield",
+  "bag_seal_required": true,
+  "is_reprint": false,
+  "original_fired_at": null
+}

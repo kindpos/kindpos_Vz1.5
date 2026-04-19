@@ -1,0 +1,52 @@
+{
+  "restaurant_name": "CHARACTER VERIFICATION TEST",
+  "address": "================================",
+  "phone": "",
+  "ticket_number": "TEST-001",
+  "order_type": "dine_in",
+  "copy_type": "customer",
+  "items": [
+    {
+      "name": "Grilled Atlantic Salmon with Lemon Butter Caper Sauce",
+      "qty": 1,
+      "price": 28.00,
+      "modifiers": [],
+      "special_instructions": "+ No onions, no garlic, extra sauce on the side please"
+    }
+  ],
+  "subtotal": 28.00,
+  "tax_lines": [],
+  "total": 28.00,
+  "payment_method": "cash",
+  "footer_message": "IF ALL LINES PRINT CLEARLY\nCODEPAGE IS CORRECT",
+  "is_reprint": false,
+  "currency_test": {
+    "dollar": "$1.00",
+    "cent": "99¢"
+  },
+  "accent_test": "cafe, naïve, résumé\njalapeño, piña colada\ncrème brûlée, château\nüber, über-cool",
+  "symbol_test": "Registered     ®\nCopyright      ©\nTrademark      ™\nBullet         •\nEm dash        —\nEllipsis       ...\nDegree         72°F",
+  "punctuation_test": "\"Quoted item\"\nIt's a great day\n100% satisfaction\nPrice: $12.00 / each",
+  "formatting_test": "--------------------------------\n================================\n................",
+  "spanish_test": {
+    "header": "================================\n   SPANISH CHARACTER TEST\n================================",
+    "special_chars": "ñ Ñ á é í ó ú\nÜ ü ¡ ¿",
+    "menu_items": [
+      "1 Piña Colada              $12.00",
+      "1 Jalapeño Poppers          $9.00",
+      "1 Crema de Leche            $6.00"
+    ],
+    "receipt_text": "¡Gracias por su visita!\nPor favor vuelva pronto."
+  },
+  "italian_test": {
+    "header": "================================\n   ITALIAN CHARACTER TEST\n================================",
+    "special_chars": "à è ì ò ù\nÀ È Ì Ò Ù",
+    "menu_items": [
+      "1 Caffè Americano           $4.00",
+      "1 Risotto all'Arlecchino   $24.00",
+      "1 Crème Brûlée             $10.00"
+    ],
+    "receipt_text": "Grazie mille per la visita!\nArrivederci e buona giornata."
+  },
+  "footer_message": "IF ALL CHARACTERS PRINT CLEARLY\nCODEPAGE SUPPORTS ES + IT"
+}

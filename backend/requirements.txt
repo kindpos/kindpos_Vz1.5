@@ -1,0 +1,23 @@
+# KINDpos Backend Dependencies
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+
+# Database
+aiosqlite==0.19.0
+
+# Validation
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Printing (ESC/POS)
+python-escpos==3.1
+
+# Utilities
+python-dateutil==2.8.2
+httpx==0.26.0
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3

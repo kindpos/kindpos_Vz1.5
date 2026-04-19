@@ -1,0 +1,52 @@
+{
+  "order_id": "order_321",
+  "check_number": "1048",
+  "ticket_number": "C-004",
+  "order_type": "dine_in",
+  "table": "4",
+  "customer_name": null,
+  "fired_at": "2026-03-20T17:52:00Z",
+  "server": "Jake",
+  "seats": [1, 2],
+  "order_source": null,
+  "station_name": "Bar",
+  "terminal_id": "BAR-1",
+  "ticket_index": 1,
+  "ticket_total": 1,
+  "ticket_type": "ORIGINAL",
+  "supports_red": false,
+  "rush": false,
+  "vip": false,
+  "warnings_86": [],
+  "items": [
+    {
+      "name": "Wings (dozen)",
+      "kitchen_text": "Wings (dozen)",
+      "modifiers": [],
+      "qty": 1,
+      "seat_number": null,
+      "special_instructions": "Extra Crispy",
+      "allergy": null
+    },
+    {
+      "name": "Cheeseburger",
+      "kitchen_text": "Cheeseburger",
+      "modifiers": [],
+      "qty": 2,
+      "seat_number": null,
+      "special_instructions": "",
+      "allergy": null
+    },
+    {
+      "name": "Cheeseburger",
+      "kitchen_text": "Cheeseburger",
+      "modifiers": ["No Pickles", "Add Bacon"],
+      "qty": 1,
+      "seat_number": null,
+      "special_instructions": "",
+      "allergy": null
+    }
+  ],
+  "is_reprint": false,
+  "original_fired_at": null
+}

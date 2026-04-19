@@ -1,0 +1,40 @@
+{
+  "order_id": "order_789",
+  "ticket_number": "C-002",
+  "order_type": "to_go",
+  "table": null,
+  "server_name": "Maria",
+  "opened_at": "2026-03-20T17:30:00Z",
+  "closed_at": "2026-03-20T17:35:00Z",
+  "items": [
+    {
+      "name": "Classic Burger",
+      "modifiers": ["No Onions"],
+      "price": 12.50,
+      "qty": 1,
+      "special_instructions": null
+    },
+    {
+      "name": "Large Fries",
+      "modifiers": [],
+      "price": 4.50,
+      "qty": 1,
+      "special_instructions": null
+    }
+  ],
+  "subtotal": 17.00,
+  "tax_lines": [
+    {"label": "Sales Tax", "rate": 0.08, "amount": 1.36}
+  ],
+  "tip_amount": 0.00,
+  "total": 18.36,
+  "payment_method": "cash",
+  "card_last_four": null,
+  "copy_type": "customer",
+  "restaurant_name": "KINDpos Diner",
+  "address": "123 Main St, Springfield",
+  "phone": "555-0123",
+  "footer_message": "Thank you! Please come again.",
+  "is_reprint": false,
+  "original_printed_at": null
+}

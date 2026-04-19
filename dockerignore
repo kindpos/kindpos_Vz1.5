@@ -1,0 +1,48 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VCS / editor
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+
+# Tests & docs (not needed in production image)
+tests/
+**/tests/
+docs/
+*.md
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Fly / ops
+fly.toml
+fly.*.toml
+.dockerignore
+Dockerfile
+
+# Local data / sqlite (shouldn't be in the image — volume provides /data at runtime)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Archived old projects (KINDprod pre-consolidation)
+archive/
+old/

@@ -1,0 +1,28 @@
+{
+  "order_id": "order_654",
+  "ticket_number": "C-005",
+  "order_type": "delivery",
+  "customer_name": "John Doe",
+  "delivery_address": "789 Pine St, Springfield",
+  "phone_number": "555-9876",
+  "delivery_notes": "Gate code: 1234. Leave at front door.",
+  "items": [
+    {
+      "name": "Family Pizza Meal",
+      "qty": 1,
+      "modifiers": ["1 Cheese", "1 Pepperoni"]
+    },
+    {
+      "name": "2L Soda",
+      "qty": 1,
+      "modifiers": ["Cola"]
+    }
+  ],
+  "order_total": 45.00,
+  "payment_status": "pre_paid",
+  "prepaid_amount": 45.00,
+  "estimated_delivery_time": "18:45",
+  "restaurant_name": "KINDpos Diner",
+  "restaurant_phone": "555-0123",
+  "is_reprint": false
+}

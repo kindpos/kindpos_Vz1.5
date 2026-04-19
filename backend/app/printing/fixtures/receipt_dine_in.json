@@ -1,0 +1,49 @@
+{
+  "order_id": "ORD-101",
+  "ticket_number": "C-101",
+  "order_type": "dine_in",
+  "table": "Table 7",
+  "server_name": "Maria",
+  "opened_at": "2026-03-20T17:00:00Z",
+  "closed_at": "2026-03-20T17:45:00Z",
+  "items": [
+    {
+      "name": "Classic Burger",
+      "modifiers": ["Medium Rare", "No Onions"],
+      "price": 15.50,
+      "qty": 1,
+      "special_instructions": ""
+    },
+    {
+      "name": "Truffle Fries with Homemade Aioli Sauce",
+      "modifiers": [],
+      "price": 8.00,
+      "qty": 1,
+      "special_instructions": "Extra crispy please"
+    },
+    {
+      "name": "Local Craft IPA",
+      "modifiers": [],
+      "price": 7.50,
+      "qty": 2,
+      "special_instructions": ""
+    }
+  ],
+  "subtotal": 38.50,
+  "tax_lines": [
+    { "label": "Sales Tax", "rate": 0.08, "amount": 3.08 }
+  ],
+  "tip_amount": 0.0,
+  "total": 41.58,
+  "tip_suggestion_percentages": [15, 18, 20],
+  "tip_calculation_base": "pretax",
+  "payment_method": "card",
+  "card_last_four": "4242",
+  "copy_type": "customer",
+  "restaurant_name": "Limoncello Bistro",
+  "address": "123 Main St, Anytown, USA",
+  "phone": "555-0123",
+  "footer_message": "Thank you for dining with us!",
+  "is_reprint": false,
+  "original_printed_at": null
+}

@@ -1,0 +1,34 @@
+{
+  "order_id": "order_111",
+  "ticket_number": "C-003",
+  "order_type": "delivery",
+  "table": null,
+  "server_name": "Maria",
+  "opened_at": "2026-03-20T17:40:00Z",
+  "closed_at": "2026-03-20T17:45:00Z",
+  "items": [
+    {
+      "name": "Pepperoni Pizza",
+      "modifiers": ["Extra Cheese"],
+      "price": 18.00,
+      "qty": 1,
+      "special_instructions": null
+    }
+  ],
+  "subtotal": 18.00,
+  "tax_lines": [
+    {"label": "Sales Tax", "rate": 0.08, "amount": 1.44}
+  ],
+  "tip_amount": 3.00,
+  "total": 22.44,
+  "payment_method": "card",
+  "card_last_four": "1234",
+  "copy_type": "customer",
+  "restaurant_name": "KINDpos Diner",
+  "address": "123 Main St, Springfield",
+  "phone": "555-0123",
+  "footer_message": "Enjoy your meal!",
+  "is_reprint": false,
+  "original_printed_at": null,
+  "delivery_address": "456 Oak Lane, Springfield, IL 62704"
+}

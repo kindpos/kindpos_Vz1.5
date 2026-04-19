@@ -1,0 +1,52 @@
+{
+  "order_id": "ORD-102",
+  "check_number": "1047",
+  "ticket_number": "C-102",
+  "order_type": "to_go",
+  "customer_name": "Alex P",
+  "pickup_time": "2026-03-20T18:15:00Z",
+  "fired_at": "2026-03-20T17:48:00Z",
+  "server": "Maria",
+  "seats": null,
+  "order_source": "Phone",
+  "station_name": "Hot Line",
+  "terminal_id": "TRUCK-1",
+  "ticket_index": 1,
+  "ticket_total": 1,
+  "ticket_type": "ORIGINAL",
+  "supports_red": false,
+  "rush": false,
+  "vip": false,
+  "warnings_86": [],
+  "items": [
+    {
+      "name": "Smash Burger",
+      "kitchen_text": "Smash Burger",
+      "modifiers": ["No Onion", "Add Jalapeño", "Sub GF Bun"],
+      "qty": 2,
+      "seat_number": null,
+      "special_instructions": "",
+      "allergy": null
+    },
+    {
+      "name": "Loaded Fries",
+      "kitchen_text": "Loaded Fries",
+      "modifiers": ["Extra Cheese"],
+      "qty": 1,
+      "seat_number": null,
+      "special_instructions": "",
+      "allergy": null
+    },
+    {
+      "name": "Caesar Salad",
+      "kitchen_text": "Caesar Salad",
+      "modifiers": ["Add Salmon"],
+      "qty": 1,
+      "seat_number": null,
+      "special_instructions": "",
+      "allergy": "Shellfish"
+    }
+  ],
+  "is_reprint": false,
+  "original_fired_at": null
+}
